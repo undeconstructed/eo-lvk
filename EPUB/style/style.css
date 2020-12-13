@@ -75,57 +75,30 @@ nav a {
 }
 .chapter hr {
   background-color: inherit;
-  border-width: 0;
+  /* border-width: 0; */
   margin: 1em 0;
 }
 
-.examples p {
+.plainlist {
+  list-style-type: none;
+  padding-left: 0;
+}
+.plainlist li {
   text-indent: 0;
-  background-color: rgb(220,220,220);
-  padding: 1em;
 }
 
-.c3_forms {
-  margin: auto;
+
+.song {
+  margin: 1em 0 1em 6em;
+  font-family: inherit;
+}
+.song .verse {
+  margin-bottom: 1em;
+}
+.song p {
+  margin: 0;
+}
+
+p.stars {
   text-align: center;
 }
-.c3_forms td {
-  padding: 0 .5em;
-}
-
-.c4_forms {
-  margin: .5em auto .5em auto;
-}
-
-.c4_thing {
-  margin: .5em auto .5em auto;
-}
-.c4_thing td {
-  padding: .5em;
-  text-align: center;
-}
-.c4_thing table tr+tr td {
-  border-top: 1px solid black;
-}
-.c4_thing table td+td {
-  border-left: 1px solid black;
-}
-
-.c7_thing {
-  margin: auto;
-  text-align: left;
-}
-.c7_thing thead th {
-  padding-bottom: .5em;
-}
-.c7_thing td, .c7_thing th {
-  padding: .5em;
-}
-
-/* table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 6px;
-  vertical-align: top;
-  margin: 5px;
-} */
